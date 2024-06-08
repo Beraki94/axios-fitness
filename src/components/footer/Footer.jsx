@@ -1,4 +1,3 @@
-import './Footer.css'
 import Logo from "../../images/aflogo.png";
 import { Link } from 'react-router-dom';
 import { FaFacebook } from 'react-icons/fa';

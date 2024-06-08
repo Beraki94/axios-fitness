@@ -1,7 +1,9 @@
-.schedule-table{
-    background-color: white;
+
+.schedule{
+    padding: 0;
+    width: 100%;
 }
-table {
+.schedule-table {
     width: 100%;
     border-collapse: collapse;
     border-radius: 2rem;

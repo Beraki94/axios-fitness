@@ -4,11 +4,12 @@ import './Schedule.css'
 
 const Schedule = () => {
   return (
-    <section className='schedule-table'>
+    <section className='schedule'>
       <PageHeader title={"About Us"}image={Gym1}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis dolor itaque, ipsum impedit molestias molestiae minus mollitia adipisci voluptatum numquam!
       </PageHeader>
-       <table>
+
+       <table className='schedule-table'>
         <thead>
             <tr>
                 <th>Hours</th>

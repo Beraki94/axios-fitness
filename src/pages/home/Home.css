@@ -1,8 +1,14 @@
 .hero{
+    height: 600px;
+    background-color: #333;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    height: 100vh;
-    background-color: rgba(255, 255, 255, 0.989);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(197, 197, 197);
+    margin-top: 6rem;
 }
 
 .statistics{

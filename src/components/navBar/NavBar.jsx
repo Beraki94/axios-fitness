@@ -3,7 +3,6 @@ import {links} from "../../data";
 import Logo from "../../images/aflogo.png";
 import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
-import './NavBar.css'
 import { useState } from "react";
 import PopUpModal from "../modal/PopUpModal";
 
@@ -22,13 +21,15 @@ const NavBar = () => {
             })
           }
         </ul>
+        <div>
+          <PopUpModal/>
+          <a className="nav-menu-btn" onClick={() => setIsNavShowing(prev => !prev)}>
+            {
+              isNavShowing ? <MdClose /> : <FaBars />
+            }
+          </a>
+        </div>
         
-        <PopUpModal/>
-        <a className="nav-menu-btn" onClick={() => setIsNavShowing(prev => !prev)}>
-          {
-            isNavShowing ? <MdClose /> : <FaBars />
-          }
-        </a>
       </nav>
     </header>
   )

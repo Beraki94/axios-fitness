@@ -1,16 +1,16 @@
 import CountUp from 'react-countup';
 import './Home.css';
 import SectionHead from '../../components/sectionHead/SectionHead';
-import ImageSlider from '../../components/slider/ImageSlider';
+import HeroCarousel from '../../components/slider/HeroCarousel';
 
 
 const Home = () => {
   return (
     <>
       <section className='hero'>
-        <ImageSlider/>
+        <HeroCarousel/>
       </section>
-     
+     <SectionHead title={"OUR SERVICES"} subTitle={"Best of the Best"}/>
     </>
 
   )
