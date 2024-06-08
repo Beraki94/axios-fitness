@@ -1,0 +1,17 @@
+.schedule-table{
+    background-color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 2rem;
+    border: 2px solid #5A29E4;
+    
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th, .even {
+    background-color: #FC6C3A;
+}

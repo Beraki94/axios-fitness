@@ -1,0 +1,59 @@
+/*Default*/
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+:root{
+    --primaryColor: #5A29E4;
+
+    --container-width-lg: 80%;
+    --container-width-sm: 90%;
+
+    --transition: all 500ms ease;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
+    line-height: 1.7;
+    background-color: #ffffff;
+}
+    
+section{
+    padding: 4rem;
+}
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+a, Link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
