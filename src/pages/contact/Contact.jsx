@@ -1,11 +1,10 @@
 import PageHeader from '../../components/PageHeader/PageHeader'
-import Gym1 from "../../images/fitas1.webp";
 import './Contact.css'
 const Contact = () => {
   return (
     <section className='contact'>
-      <PageHeader title={"About Us"}image={Gym1}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis dolor itaque, ipsum impedit molestias molestiae minus mollitia adipisci voluptatum numquam!
+      <PageHeader title={"Contact Us"}image={"https://t3.ftcdn.net/jpg/06/52/75/52/240_F_652755297_NWouGidex5E6PMghw45aelNYZxG0jgPP.jpg"}>
+      "The only bad workout is the one that didn’t happen."
       </PageHeader>
       <form action="" method="POST" className='contact-form'>
         <div className='contact-form-group'>

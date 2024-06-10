@@ -15,10 +15,10 @@
   }
   
   .carousel-caption {
-    width: 300px;
+    width: 700px;
     position: absolute;
     bottom: 225px;
-    left: 150px;
+    left: 50px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
@@ -26,10 +26,17 @@
   }
   
   .carousel-caption h1{
-    
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 800;
 
   }
-  
-  .carousel-caption p {
-    
+  .carousel-caption h1 span{
+    color: #FC6C3A;
   }
+  .carousel-caption p {
+    text-align: left;
+    text-align: justify;
+    color: #ffffffdd;
+  }
+  

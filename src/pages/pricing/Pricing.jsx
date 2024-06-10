@@ -1,16 +1,21 @@
 import PageHeader from '../../components/PageHeader/PageHeader'
-import Gym1 from "../../images/fitas1.webp";
 import './Pricing.css'
+import PricingSection from './PricingSection';
 
 const Pricing = () => {
-  return (
+  return (<>
     <section className='pricing'>
-      <PageHeader title={"About Us"}image={Gym1}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis dolor itaque, ipsum impedit molestias molestiae minus mollitia adipisci voluptatum numquam!
+      <PageHeader title={"Pricing Plan"}image={"https://t4.ftcdn.net/jpg/02/07/90/87/240_F_207908753_IgTqqhNJMOnWOgSNLXayj6MYaj91gdjp.jpg"}>
+      "Fitness is not about being better than someone else. It’s about being better than you used to be."
+
+
       </PageHeader>
       <div>Pricing</div>
     </section>
+
+    <PricingSection/>
     
+    </>
   )
 }
 

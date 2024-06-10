@@ -26,11 +26,8 @@ body{
 }
     
 section{
-    justify-content: center;
-    display: flex;
-    align-items: center;
+   
     padding: 2rem;
-    flex-direction: column;
 }
 .container {
     width: var(--container-width-lg);

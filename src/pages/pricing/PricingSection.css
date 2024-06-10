@@ -1,0 +1,6 @@
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+  }

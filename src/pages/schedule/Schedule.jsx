@@ -1,12 +1,11 @@
 import PageHeader from '../../components/PageHeader/PageHeader'
-import Gym1 from "../../images/fitas1.webp";
 import './Schedule.css'
 
 const Schedule = () => {
   return (
     <section className='schedule'>
-      <PageHeader title={"About Us"}image={Gym1}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis dolor itaque, ipsum impedit molestias molestiae minus mollitia adipisci voluptatum numquam!
+      <PageHeader title={"Daily Schedule"}image={"https://t4.ftcdn.net/jpg/03/17/72/47/240_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg"}>
+      "Push yourself because no one else is going to do it for you."
       </PageHeader>
 
        <table className='schedule-table'>

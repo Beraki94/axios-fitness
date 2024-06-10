@@ -5,7 +5,7 @@ const SectionHead = ({subTitle, title}) => {
   return (
     <div className='section-header'>
         <span>{subTitle}</span>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
     </div>
   )
 }

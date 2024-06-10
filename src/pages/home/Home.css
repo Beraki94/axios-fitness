@@ -22,10 +22,46 @@
     color: white;
     margin-top: 2rem;
     border-radius: 4rem;
+    margin-bottom: 8rem;
 }
 
 .statistics-details{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.statistics span{
+    font-size: 1.25rem;
+    font-weight:bold;
+    line-height: 1.7;
+    
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-pricing{
+  background-color: white;
+}
+
+.testimonials-section{
+  background-color:#5b29e450;
+  padding: 4rem;
+  
+}
+.testimonials-section h2{
+  color: white;
 }
